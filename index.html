@@ -192,6 +192,98 @@ border-top:
 
 }
 
+.footer-container{
+
+max-width:900px;
+
+margin:auto;
+
+}
+
+.footer-divider{
+
+border:none;
+
+height:1px;
+
+background:rgba(197,155,84,.2);
+
+max-width:220px;
+
+margin:35px auto;
+
+}
+
+.support-title{
+
+color:var(--gold);
+
+margin-bottom:20px;
+
+font-size:1.5rem;
+
+}
+
+.support-text{
+
+max-width:750px;
+
+margin:0 auto 20px auto;
+
+line-height:1.9;
+
+color:#b8ab91;
+
+}
+
+.donation-buttons{
+
+display:flex;
+
+justify-content:center;
+
+gap:15px;
+
+flex-wrap:wrap;
+
+margin:30px 0;
+
+}
+
+.donate-btn{
+
+display:inline-block;
+
+padding:12px 24px;
+
+border-radius:30px;
+
+background:var(--gold);
+
+color:black;
+
+text-decoration:none;
+
+font-weight:bold;
+
+transition:.3s;
+
+}
+
+.donate-btn:hover{
+
+transform:translateY(-3px);
+
+}
+
+.copyright{
+
+color:#b8ab91;
+
+opacity:.8;
+
+}
+
 /* tablet */
 
 @media(max-width:900px){
@@ -330,7 +422,91 @@ Begin Reading
 
 <footer>
 
-Overshadowed: God With Us • Written by Bradley Hobbs
+<div class="footer-container">
+
+<h3>
+
+Overshadowed: God With Us
+
+</h3>
+
+<p>
+
+Written by Bradley Hobbs
+
+</p>
+
+<hr class="footer-divider">
+
+<h3 class="support-title">
+
+Support My Writing
+
+</h3>
+
+<p class="support-text">
+
+Every book, devotional, article, and study shared across these websites is freely available to read. Many hours of prayer, research, writing, editing, and website development go into creating and maintaining these resources.
+
+</p>
+
+<p class="support-text">
+
+Readers who have been encouraged, blessed, or helped through these writings and would like to support future projects may donate using the options below.
+
+</p>
+
+<div class="donation-buttons">
+
+<a
+href="https://cash.app/$brad1gabe"
+target="_blank"
+rel="noopener noreferrer"
+class="donate-btn">
+
+Cash App
+
+</a>
+
+<a
+href="https://paypal.me/brad1god"
+target="_blank"
+rel="noopener noreferrer"
+class="donate-btn">
+
+PayPal
+
+</a>
+
+</div>
+
+<p class="support-text">
+
+Your support helps make future books, devotionals, studies, ministry resources, website projects, and new writing possible.
+
+</p>
+
+<p class="support-text">
+
+Suggestions for future topics, future writing projects, and future ministry resources are always welcome.
+
+</p>
+
+<p class="support-text">
+
+Thank you for visiting, reading, sharing these resources with others, and being part of this journey.
+
+</p>
+
+<hr class="footer-divider">
+
+<p class="copyright">
+
+© 2026 Bradley Hobbs
+
+</p>
+
+</div>
 
 </footer>
 
